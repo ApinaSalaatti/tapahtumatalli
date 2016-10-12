@@ -1,0 +1,168 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+$primaryColor: #ff851b;
+$footerColor: darken($primaryColor, 10%);
+
+html, body {
+	font-family: "Open Sans";
+	background-color: $footerColor;
+	color: #000;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.container-fluid {
+	margin: 0px;
+	padding: 0px;
+}
+
+.flex-center {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+header {
+	background: $primaryColor;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	color: #000;
+	z-index: 10;
+}
+
+header a {
+	color: #000;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    background-color: darken($primaryColor, 10%);
+    color: #000;
+}
+
+#site-container {
+	padding-top: 50px;
+	padding-bottom: 30px;
+	margin: 0px;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+#frontpage-banner {
+	height: 400px;
+	background: url('../images/welcome_banner_background.png');
+}
+
+.front-banner-type-of-event {
+	width: 400px !important;
+	height: 50px;
+}
+
+.frontpage-banner-form {
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.frontpage-banner-btn {
+	background-color: $primaryColor;
+	height: 50px;
+	width: 100px;
+}
+
+.container {
+	width: 100%;
+}
+
+.frontpage-banner-city {
+	width: 200px !important;
+	height: 50px;
+}
+
+.frontpage-content {
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.basic-page {
+	padding-top: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+$profilePageDividerColor: #ccc;
+
+.profile-page {
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.profile-title {
+	padding: 0px;
+	margin: 0px;
+}
+
+.profile-basic-info {
+	border-style: solid;
+	border-color: $profilePageDividerColor;
+	border-width: 0px 0px 1px 0px;
+}
+
+.profile-details {
+	padding-top: 20px;
+	border-style: solid;
+	border-color: $profilePageDividerColor;
+	border-width: 0px 0px 1px 0px;
+}
+
+.profile-images {
+	padding-top: 20px;
+}
+
+.profile-text {
+	padding-top: 20px;
+	border-style: solid;
+	border-color: $profilePageDividerColor;
+	border-width: 0px 0px 1px 0px;
+}
+
+.profile-prices {
+	padding-top: 20px;
+	border-style: solid;
+	border-color: $profilePageDividerColor;
+	border-width: 0px 0px 1px 0px;
+}
+.profile-prices-title {
+	background-color: $profilePageDividerColor;
+}
+
+.profile-thumb {
+	height: 100px;
+	width: 150px;
+}
+
+/*
+ * Search page
+ */
+#search-results h2 {
+	display: inline;
+	margin-right: 20px;
+}
+
+footer {
+	background: $footerColor;
+	color: #000;
+	padding: 30px;
+}
