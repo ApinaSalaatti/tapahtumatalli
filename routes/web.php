@@ -14,6 +14,9 @@
 Route::get('/', 'FrontpageController@show');
 Route::get('/about', 'PagesController@about');
 Route::get('/profile', 'PagesController@profile');
-Route::get('/search', 'SearchController@search');
+
+Route::get('/search', 'SearchController@view');
+//Route::get('/search/{type}', 'SearchController@search');
+
 Route::get('/venues', 'VenuesController@index');
 Route::get('/venues/{id}', 'VenuesController@show');

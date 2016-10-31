@@ -5893,6 +5893,15 @@ header a {
   display: inline;
   margin-right: 20px; }
 
+.search-result {
+  width: 100%;
+  background-color: #eeeeee;
+  height: 100px;
+  margin-bottom: 5px; }
+
+.searc-results img {
+  float: left; }
+
 footer {
   background: #e76b00;
   color: #000;

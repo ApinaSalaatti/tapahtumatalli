@@ -161,6 +161,17 @@ $profilePageDividerColor: #ccc;
 	margin-right: 20px;
 }
 
+.search-result {
+	width: 100%;
+	background-color: #eeeeee;
+	height: 100px;
+	margin-bottom: 5px;
+}
+
+.searc-results img {
+	float: left;
+}
+
 footer {
 	background: $footerColor;
 	color: #000;
