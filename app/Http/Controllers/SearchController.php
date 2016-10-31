@@ -20,7 +20,7 @@ class SearchController extends Controller
 	}
 	
 	private function searchVenue(Request $request) {
-		/*$venues = array();
+		$venues = array();
 		$venue = [];
 		$venue['name'] = "Gastropub Stone's";
 		$venue['img'] = "images/about_guy.png";
@@ -39,8 +39,9 @@ class SearchController extends Controller
 		$venue['ratings'] = 222;
 		$venues[] = $venue;
 		return $venues;
-		*/
-		$venues = [];
+		
+		
+		/*$venues = [];
 		$v = \App\Venue::all();
 		for($i = 0; $i < count($v); $i++) {
 			$venue = [];
@@ -49,7 +50,7 @@ class SearchController extends Controller
 			$venue['img'] = "images/about_guy.png";
 			$venues[] = $venue;
 		}
-		return $venues;
+		return $venues;*/
 	}
 	
 	private function searchPerformer(Request $request) {
